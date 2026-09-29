@@ -1,11 +1,11 @@
 # Apple M5 Series — Research & Optimization Manual
 
-**Second edition — 2026-09-24.** Compiled from live-system reverse
-engineering of a MacBook Pro with an M5 Pro chip (Mac17,9, macOS
-Tahoe 26.5, firmware 18000.120.36) and from a full program of measured
-optimization work on the same machine: custom Metal compute kernels,
-CoreML/ANE inference characterization, out-of-core memory management,
-and power/thermal analysis. Supersedes the first-edition field guide.
+**Second edition — 2026-09-24.** Compiled from live-system research on
+a MacBook Pro with an M5 Pro chip (Mac17,9, macOS Tahoe 26.5, firmware
+18000.120.36) and from a full program of measured optimization work on
+the same machine: custom Metal compute kernels, CoreML/ANE inference
+characterization, out-of-core memory management, and power/thermal
+analysis. Supersedes the first-edition field guide.
 
 > **Method, stated up front.** Everything here comes from read-only
 > probing (`ioreg`, `sysctl`, `kextstat`, `strings`, `nm`, `otool`,
@@ -665,8 +665,8 @@ the results that matter:
 
 ## 13. The extraction toolchain
 
-Modern macOS hides most code in two containers; serious RE starts by
-carving them.
+Modern macOS hides most code in two containers; serious research starts
+by carving them.
 
 - **Kernel collections**: the real boot collection is
   `/var/db/KernelExtensionManagement/KernelCollections/BootKernelCollection.kc`
