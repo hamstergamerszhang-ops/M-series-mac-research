@@ -1,6 +1,6 @@
-# apple-m5-research
+# M-series-mac-research
 
-Private research notes on Apple M5-series internals (ANE, GPU, CPU, memory,
+Research notes on Apple M5-series internals (ANE, GPU, CPU, memory,
 power) plus a program of measured optimization work on the same hardware.
 
 ## Contents
