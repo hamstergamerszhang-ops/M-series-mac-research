@@ -1,11 +1,11 @@
 # Apple M5 Series — Research & Optimization Manual
 
 **Second edition — 2026-09-24.** Compiled from live-system reverse
-engineering of an M5 Pro (Mac17,9, macOS 26.5, firmware 18000.120.36)
-and from a full program of measured optimization work on the same
-machine: custom Metal compute kernels, CoreML/ANE inference
-characterization, out-of-core memory management, and power/thermal
-analysis. Supersedes the first-edition field guide.
+engineering of a MacBook Pro with an M5 Pro chip (Mac17,9, macOS
+Tahoe 26.5, firmware 18000.120.36) and from a full program of measured
+optimization work on the same machine: custom Metal compute kernels,
+CoreML/ANE inference characterization, out-of-core memory management,
+and power/thermal analysis. Supersedes the first-edition field guide.
 
 > **Method, stated up front.** Everything here comes from read-only
 > probing (`ioreg`, `sysctl`, `kextstat`, `strings`, `nm`, `otool`,
@@ -773,9 +773,9 @@ ls /var/db/KernelExtensionManagement/KernelCollections/   # real .kc
 
 ---
 
-*Sources: live probes of this machine (M5 Pro, Mac17,9, macOS 26.5,
-firmware 18000.120.36); the open-source h11 ANE Linux driver (public
-lineage for selector numbering and tile size); Apple's Platform
-Security Guide and spec pages; Apple's published PCC design. Every
-other number in this manual is original measurement. Confidence tags
-are the contract: [VERIFIED] > [MEASURED] > [ESTIMATE] > [BELIEF].*
+*Sources: live probes of this machine (MacBook Pro, M5 Pro, Mac17,9,
+macOS Tahoe 26.5, firmware 18000.120.36); the open-source h11 ANE Linux
+driver (public lineage for selector numbering and tile size); Apple's
+Platform Security Guide and spec pages; Apple's published PCC design.
+Every other number in this manual is original measurement. Confidence
+tags are the contract: [VERIFIED] > [MEASURED] > [ESTIMATE] > [BELIEF].*

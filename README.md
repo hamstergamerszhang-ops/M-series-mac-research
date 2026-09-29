@@ -3,6 +3,10 @@
 Research notes on Apple M5-series internals (ANE, GPU, CPU, memory,
 power) plus a program of measured optimization work on the same hardware.
 
+**Test machine:** a MacBook Pro with the M5 Pro chip (Mac17,9) running
+macOS Tahoe 26.5. Everything here was probed and measured on that one
+machine — other M5-series parts and other macOS versions may differ.
+
 ## Contents
 
 - [`MANUAL.md`](MANUAL.md) — the full research/optimization manual, as written.
